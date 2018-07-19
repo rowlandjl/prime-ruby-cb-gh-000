@@ -5,5 +5,12 @@ def prime?(number)
     if number % i == 0
       return false
     end
+  end
+
+  if is_prime
+    return true
+  else
+    return false
+  end
 
 end
