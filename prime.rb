@@ -4,8 +4,8 @@ def prime?(number)
 
   for i in 2..number - 1
     if number <= 1
-      return false 
-    elsif number % i == 0 
+      return false
+    elsif number % i == 0
       return false
     end
   end
