@@ -4,9 +4,9 @@ def prime?(number)
 
   for i in 2..number - 1
     if number < 1
-      return false
+      is_prime = false
     elsif number % i == 0
-      return false
+      is_prime = false
     end
   end
 
